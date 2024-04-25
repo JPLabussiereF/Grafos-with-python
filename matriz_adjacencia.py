@@ -8,7 +8,7 @@ class Grafo:
 
     def add_aresta(self, u, v):
         # Grafo direcionado simples
-        self.grafo[u-1][v-1] = 1  # Trocar o = por >= se for multigrafo
+        self.grafo[u-1][v-1] = 1  # Trocar o = por += se for multigrafo
 
         # self.grafo[v-1][u-1] = 1 Caso o grafo não seja direcionado
     
